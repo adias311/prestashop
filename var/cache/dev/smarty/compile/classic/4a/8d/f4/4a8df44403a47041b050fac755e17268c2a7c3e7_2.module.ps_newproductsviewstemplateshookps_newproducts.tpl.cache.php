@@ -1,0 +1,43 @@
+<?php
+/* Smarty version 4.5.5, created on 2025-09-25 06:02:21
+  from 'module:ps_newproductsviewstemplateshookps_newproducts.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.5.5',
+  'unifunc' => 'content_68d4787d05f0e9_49593127',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '4a8df44403a47041b050fac755e17268c2a7c3e7' => 
+    array (
+      0 => 'module:ps_newproductsviewstemplateshookps_newproducts.tpl',
+      1 => 1746161722,
+      2 => 'module',
+    ),
+  ),
+  'includes' => 
+  array (
+    'file:catalog/_partials/productlist.tpl' => 1,
+  ),
+),false)) {
+function content_68d4787d05f0e9_49593127 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '182474987368d4787d05c042_93906599';
+?>
+<!-- begin /var/www/html/prestashop_edition_basic_version_9.0.0-1.0/themes/classic/modules/ps_newproducts/views/templates/hook/ps_newproducts.tpl -->
+<section class="featured-products clearfix mt-3" data-type="newproducts">
+  <h2 class="h2 products-section-title text-uppercase">
+    <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'New products','d'=>'Shop.Theme.Catalog'),$_smarty_tpl ) );?>
+
+  </h2>
+  <?php $_smarty_tpl->_subTemplateRender("file:catalog/_partials/productlist.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 9999, $_smarty_tpl->cache_lifetime, array('products'=>$_smarty_tpl->tpl_vars['products']->value,'productClass'=>"col-xs-12 col-sm-6 col-lg-4 col-xl-3"), 0, false);
+?>
+  <a class="all-product-link float-xs-left float-md-right h4" href="<?php echo htmlspecialchars((string) ($_smarty_tpl->tpl_vars['allNewProductsLink']->value), ENT_QUOTES, 'UTF-8');?>
+">
+    <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'All new products','d'=>'Shop.Theme.Catalog'),$_smarty_tpl ) );?>
+<i class="material-icons">&#xE315;</i>
+  </a>
+</section>
+
+<!-- end /var/www/html/prestashop_edition_basic_version_9.0.0-1.0/themes/classic/modules/ps_newproducts/views/templates/hook/ps_newproducts.tpl --><?php }
+}

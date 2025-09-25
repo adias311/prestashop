@@ -1,4 +1,8 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 /**
  * Copyright since 2007 PrestaShop SA and Contributors
  * PrestaShop is an International Registered Trademark & Property of PrestaShop SA
@@ -33,7 +37,7 @@
  * The code below can be also managed by settings in backoffice. The interface hardcodes the value into this file.
  */
 if (!defined('_PS_MODE_DEV_')) {
-define('_PS_MODE_DEV_', false);
+define('_PS_MODE_DEV_', true);
 }
 if (!defined('_PS_DISPLAY_COMPATIBILITY_WARNING_')) {
 define('_PS_DISPLAY_COMPATIBILITY_WARNING_', false);

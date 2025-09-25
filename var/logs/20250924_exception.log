@@ -1,0 +1,2 @@
+*ERROR* 	v9.0.0	2025/09/24 - 22:33:53: Link to database cannot be established: SQLSTATE[HY000] [2002] No route to host at line 119 in file classes/db/DbPDO.php
+*ERROR* 	v9.0.0	2025/09/24 - 22:34:05: Link to database cannot be established: SQLSTATE[HY000] [2002] No route to host at line 119 in file classes/db/DbPDO.php
